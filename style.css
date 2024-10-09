@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(33, 32, 32);
+  height: 100vh; 
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 400px;
+  background-color: #191818;
+  padding: 20px;
+  border-radius: 10px; 
+}
+
+.cc {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.show {
+  width: 100%;
+  height: 30px;
+  background-color: #f3f3f3;
+  text-align: right;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #000000;
+  border-radius: 25px;
+  color: black;
+  font-size: 24px;
+}
+
+.listenumero,
+.liste-char {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.listenumero {
+  flex: 2;
+  justify-content: space-between;
+}
+
+.liste-char {
+  flex: 1;
+  justify-content: space-between;
+}
+
+button {
+  border: 2px solid #000;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: white; 
+  color: black;
+}
+
+button:active {
+  background-color: #ddd;
+}
+
+.liste-char button:nth-child(2) {
+  
+  background-color: yellow;
+  color: black;
+}
+
+.liste-char button:nth-child(1) {
+  background-color: red;
+  color: white;
+}
